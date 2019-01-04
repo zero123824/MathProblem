@@ -7,6 +7,11 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+最終機率結果
+機率= (1-(1/門數))*(1/更換數字後剩下的門數量)
+*/
+
 public class MontyHallProblemSimulator {
 	static int COUNTER = 0;
 	static int AWARDTIMES = 0;
